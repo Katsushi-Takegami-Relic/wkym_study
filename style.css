@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+h2 {
+    height: 60px;
+}
+.recommend_spot_block {
+    background-color: rgb(180, 216, 216);
+    padding: 0 20px 100px;
+}
+.recommend_spot_list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.recommend_spot_item {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+}
+.recommend_spot_item:not(:first-child) {
+    margin-left: 30px;
+}
+@media screen and (max-width:640px) {
+    .recommend_spot_list {
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    .recommend_spot_item {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-bottom: 20px;
+    }
+}
+.recommend_spot_item p {
+    text-align: left;
+}
