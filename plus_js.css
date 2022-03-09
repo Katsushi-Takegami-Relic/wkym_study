@@ -3,22 +3,28 @@ body {
     height: 100%;
     background-color: rgb(180, 216, 216);
 }
+
 h1 {
     margin: 0;
     text-align: center;
     padding-top: 20px;
 }
+
 h2 {
     height: 60px;
 }
+
 .recommend_spot_block {
     padding: 0 35px 100px;
 }
+
 .recommend_spot_list {
     padding: 0;
     list-style: none;
 }
+
 .recommend_spot_item {
+    background-color: white;
     width: 90%;
     height: 100%;
     height: auto;
@@ -28,20 +34,25 @@ h2 {
     text-align: center;
     margin: 0 auto;
 }
-@media screen and (min-width:641px){
+
+@media screen and (min-width:641px) {
     .recommend_spot_item:not(:first-child) {
         margin-left: 30px;
     }
 }
+
 .recommend_spot_item p {
     text-align: left;
 }
+
 .img_block img {
     height: 300px;
 }
+
 .slick-track {
     display: flex;
-  }
-  .slick-slide {
+}
+
+.slick-slide {
     height: auto !important;
-  }
+}

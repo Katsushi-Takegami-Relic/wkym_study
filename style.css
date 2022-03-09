@@ -24,6 +24,7 @@ h2 {
     box-sizing: border-box;
     border: 1px solid black;
     text-align: center;
+    background-color: white;
 }
 .recommend_spot_item:not(:first-child) {
     margin-left: 30px;
